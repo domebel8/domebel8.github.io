@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apofanía Visual</title>
+    <link rel="icon" href="apovi.jpg">
+    <style>
+    body {
+      background-color: red;
+  margin: 10;
+  font-family: sans-serif;
+  color: white;
+}
+
+.contenido-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 40px; /* espacio entre texto e imagen */
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap; /* para que sea responsive */
+}
+
+.texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 300px;
+}
+
+  </style>
+</head>
+<body>
+<section class="contenido-principal">
+    <div class="texto">
+      
+        <img src="apovi.jpg" alt="Logo de Apofonía Visual"
+        width="95" height="100">
+        </img>
+        <h1 class="title">Apofanía Visual</h1>
+      
+      <nav class="navbar">
+          <a href="index.html">Inicio</a>
+          <a href="acercade.html">Acerca de Nosotros</a>
+          <a href="servicios.html"> Servicios</a>
+          <a href="contacto.html"> Contacto</a>
+      </nav>
+    </div>
+<section class="contenido-principal">
+  <div class="texto">
+    <h2 class="title">Contacto</h2>
+    <p>
+      ¿Quieres agendar una sesión? ¿Colaborar en un proyecto artístico? ¿Tienes una idea que quieres capturar?
+      Anímate a contarnos tu propuesta, soñemos en conjunto.
+    </p>
+      <form>
+        <p>Nombre: <input type="text"> </p>
+        <p>Correo Electrónico: <input type="email"> </p>
+        <p>Mensaje: <textarea></textarea></p>
+        <input type="submit" value="Enviar" >
+      </form>
+  </div>
+</section>
+</body>
+
+<footer><p><b><i>Número de contacto: 123 456789 <br> 
+Correo: apofaniavisual@gmail.com</i></b></p></footer>
+</html>
